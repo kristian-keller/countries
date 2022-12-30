@@ -11,7 +11,7 @@ import SwiftUI
 struct Countries_IliadApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CountriesMaster()
         }
     }
 }

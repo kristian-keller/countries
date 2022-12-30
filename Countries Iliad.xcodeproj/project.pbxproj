@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0909C685295F3AFF0034D339 /* CapitalAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909C684295F3AFF0034D339 /* CapitalAnnotation.swift */; };
 		0909E183295C70F700D2CBC8 /* Countries_IliadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909E182295C70F700D2CBC8 /* Countries_IliadApp.swift */; };
-		0909E185295C70F700D2CBC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909E184295C70F700D2CBC8 /* ContentView.swift */; };
+		0909E185295C70F700D2CBC8 /* CountriesMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909E184295C70F700D2CBC8 /* CountriesMaster.swift */; };
 		0909E187295C70F800D2CBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0909E186295C70F800D2CBC8 /* Assets.xcassets */; };
 		0909E18A295C70F800D2CBC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0909E189295C70F800D2CBC8 /* Preview Assets.xcassets */; };
 		0909E194295C70F800D2CBC8 /* Countries_IliadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909E193295C70F800D2CBC8 /* Countries_IliadTests.swift */; };
 		0909E19E295C70F800D2CBC8 /* Countries_IliadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909E19D295C70F800D2CBC8 /* Countries_IliadUITests.swift */; };
 		0909E1A0295C70F800D2CBC8 /* Countries_IliadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909E19F295C70F800D2CBC8 /* Countries_IliadUITestsLaunchTests.swift */; };
+		0909E1AD295C72B000D2CBC8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909E1AC295C72B000D2CBC8 /* Model.swift */; };
+		0909E1B1295C74B800D2CBC8 /* CountryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909E1B0295C74B800D2CBC8 /* CountryDetail.swift */; };
+		0909E1B3295C835000D2CBC8 /* EmptyPlaceholderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909E1B2295C835000D2CBC8 /* EmptyPlaceholderModifier.swift */; };
+		0909E1B5295C952B00D2CBC8 /* CountryListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909E1B4295C952B00D2CBC8 /* CountryListElement.swift */; };
+		0909E1B7295CB53F00D2CBC8 /* FilterPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909E1B6295CB53F00D2CBC8 /* FilterPopover.swift */; };
+		0909E1B9295CB9DA00D2CBC8 /* RegionListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909E1B8295CB9DA00D2CBC8 /* RegionListElement.swift */; };
+		09CE81DD295D9E9500D1069D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CE81DC295D9E9500D1069D /* MapView.swift */; };
+		09CE81E2295DB51D00D1069D /* BorderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CE81E1295DB51D00D1069D /* BorderCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0909C684295F3AFF0034D339 /* CapitalAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalAnnotation.swift; sourceTree = "<group>"; };
 		0909E17F295C70F700D2CBC8 /* Countries Iliad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Countries Iliad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0909E182295C70F700D2CBC8 /* Countries_IliadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries_IliadApp.swift; sourceTree = "<group>"; };
-		0909E184295C70F700D2CBC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0909E184295C70F700D2CBC8 /* CountriesMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesMaster.swift; sourceTree = "<group>"; };
 		0909E186295C70F800D2CBC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0909E189295C70F800D2CBC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0909E18F295C70F800D2CBC8 /* Countries IliadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Countries IliadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,15 @@
 		0909E199295C70F800D2CBC8 /* Countries IliadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Countries IliadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0909E19D295C70F800D2CBC8 /* Countries_IliadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries_IliadUITests.swift; sourceTree = "<group>"; };
 		0909E19F295C70F800D2CBC8 /* Countries_IliadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries_IliadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0909E1AC295C72B000D2CBC8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0909E1B0295C74B800D2CBC8 /* CountryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetail.swift; sourceTree = "<group>"; };
+		0909E1B2295C835000D2CBC8 /* EmptyPlaceholderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPlaceholderModifier.swift; sourceTree = "<group>"; };
+		0909E1B4295C952B00D2CBC8 /* CountryListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListElement.swift; sourceTree = "<group>"; };
+		0909E1B6295CB53F00D2CBC8 /* FilterPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPopover.swift; sourceTree = "<group>"; };
+		0909E1B8295CB9DA00D2CBC8 /* RegionListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionListElement.swift; sourceTree = "<group>"; };
+		09CE81DC295D9E9500D1069D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		09CE81DE295DA18000D1069D /* Countries Iliad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Countries Iliad.entitlements"; sourceTree = "<group>"; };
+		09CE81E1295DB51D00D1069D /* BorderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +113,18 @@
 		0909E181295C70F700D2CBC8 /* Countries Iliad */ = {
 			isa = PBXGroup;
 			children = (
+				09CE81DE295DA18000D1069D /* Countries Iliad.entitlements */,
 				0909E182295C70F700D2CBC8 /* Countries_IliadApp.swift */,
-				0909E184295C70F700D2CBC8 /* ContentView.swift */,
+				0909E184295C70F700D2CBC8 /* CountriesMaster.swift */,
+				0909E1B4295C952B00D2CBC8 /* CountryListElement.swift */,
+				0909E1B2295C835000D2CBC8 /* EmptyPlaceholderModifier.swift */,
+				0909E1B6295CB53F00D2CBC8 /* FilterPopover.swift */,
+				0909E1B8295CB9DA00D2CBC8 /* RegionListElement.swift */,
+				0909E1B0295C74B800D2CBC8 /* CountryDetail.swift */,
+				09CE81E1295DB51D00D1069D /* BorderCard.swift */,
+				09CE81DC295D9E9500D1069D /* MapView.swift */,
+				0909C684295F3AFF0034D339 /* CapitalAnnotation.swift */,
+				0909E1AC295C72B000D2CBC8 /* Model.swift */,
 				0909E186295C70F800D2CBC8 /* Assets.xcassets */,
 				0909E188295C70F800D2CBC8 /* Preview Content */,
 			);
@@ -257,8 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0909E185295C70F700D2CBC8 /* ContentView.swift in Sources */,
+				0909E1AD295C72B000D2CBC8 /* Model.swift in Sources */,
+				0909C685295F3AFF0034D339 /* CapitalAnnotation.swift in Sources */,
+				0909E1B7295CB53F00D2CBC8 /* FilterPopover.swift in Sources */,
+				0909E1B5295C952B00D2CBC8 /* CountryListElement.swift in Sources */,
+				0909E1B9295CB9DA00D2CBC8 /* RegionListElement.swift in Sources */,
+				0909E1B1295C74B800D2CBC8 /* CountryDetail.swift in Sources */,
+				09CE81E2295DB51D00D1069D /* BorderCard.swift in Sources */,
+				0909E185295C70F700D2CBC8 /* CountriesMaster.swift in Sources */,
 				0909E183295C70F700D2CBC8 /* Countries_IliadApp.swift in Sources */,
+				09CE81DD295D9E9500D1069D /* MapView.swift in Sources */,
+				0909E1B3295C835000D2CBC8 /* EmptyPlaceholderModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Countries Iliad/Countries Iliad.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Countries Iliad/Preview Content\"";
@@ -432,6 +471,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kristiankeller.Countries-Iliad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_DOCUMENTATION_COMPILER = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Countries Iliad/Countries Iliad.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Countries Iliad/Preview Content\"";
@@ -461,6 +505,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kristiankeller.Countries-Iliad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_DOCUMENTATION_COMPILER = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
